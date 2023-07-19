@@ -1,0 +1,9 @@
+name: 'Print Greeting Message'
+description: 'Prints a greeting message using a custom GitHub Action.'
+inputs:
+  name:
+    description: 'The name to include in the greeting message.'
+    required: true
+runs:
+  using: 'shell'
+  main: 'greeting.sh'
